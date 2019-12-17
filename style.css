@@ -1,0 +1,107 @@
+#logo
+{
+	display: inline-flex;
+	margin-left:50px;
+	margin-top:20px;
+	font-family: 'Bree Serif', serif;
+}
+#logo label
+{
+	margin-top:10px;
+	padding-left:10px;
+	font-size:50px;
+}
+#lists
+{
+	display:inline-flex;
+	list-style-type: none;
+	padding-left:550px;
+	margin-top:30px;
+	font-size:20px;
+}
+#lists a
+{
+	text-decoration:none;
+}
+#description pre
+{
+	padding-top:150px;
+	font-size:40px;
+	color:#8a8a5c;
+	margin-left:50px;
+	line-height:50px;
+	font-family: 'Lobster', cursive;
+	background-color:#e6ffe6;
+	border-color:#e6ffe6;
+	letter-spacing:5px;
+}
+#description p
+{
+	font-size:20px;
+	margin-left:60px;
+	line-height:30px;
+	letter-spacing:2px;
+	font-family: 'Lobster', cursive;
+}
+#mainbody
+{
+	display:inline-flex;
+}
+#images
+{
+	display:inline-flex;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:#d9ff66;
+}
+#menu
+{
+	background-image:url("m6.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top:100px;
+	padding-bottom:20px;
+	color:white;
+	font-family: 'Acme', sans-serif;
+	font-size:20px;
+	color:#1affc6;
+}
+#menu table tr th
+{
+	text-align:center;
+}
+#items
+{
+	display:inline-flex;
+}
+#details
+{
+	display: inline-flex;
+	background-color:#a3c2c2;
+	padding-right:170px;
+	padding-top:20px;
+}
+#details pre
+{
+	background-color:white;
+	border-color:white;
+	background-color:#a3c2c2;
+	border-color:#a3c2c2;
+	font-family: 'Baloo Bhai', cursive;
+	font-size:15px;
+}
+#order
+{
+	margin-top:50px;
+	transition:2s;
+}
+#order a
+{
+	text-decoration:none;
+}
+#order:hover
+{
+	background-color:#ffff99;
+	transition:2s;
+	color:black;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/css?family=Patua+One|Fredoka+One|Odibee+Sans|Ubuntu|Lilita+One|Abril+Fatface&display=swap" rel="stylesheet">
+	<title>Order</title>
+</head>
+<body style="background-color:#e6ffe6;">
+<div id="cart-items">
+		<p style="font-size:50px;font-family: 'Patua One', cursive;">Order:</p>
+		<img src="rice.jpg" style="width:200px;height:200px;border-radius:100px;margin-left:130px;">
+		<img src="curry.jpg" style="width:200px;height:200px;border-radius:100px;margin-left:80px;">
+		<img src="gobi.jpg" style="width:200px;height:200px;border-radius:100px;margin-left:80px;">
+		<img src="ice.jpg" style="width:200px;height:200px;border-radius:100px;margin-left:100px;"><br><br>
+		<div id="items">
+		<label style="margin-left:200px;font-size:25px;font-family: 'Fredoka One', cursive;">Rice:&nbsp;&nbsp;&nbsp;</label>
+		<label style="margin-left:200px;font-size:25px;font-family: 'Fredoka One', cursive;">Curry:&nbsp;&nbsp;&nbsp;</label>
+		<label style="margin-left:200px;font-size:25px;font-family: 'Fredoka One', cursive;">Starter:&nbsp;&nbsp;&nbsp;</label>
+		<label style="margin-left:200px;font-size:25px;font-family: 'Fredoka One', cursive;">Ice-Cream:&nbsp;&nbsp;&nbsp;</label><br><br>
+		<select id="rice" style="width:150px;border-radius:10px;height:50px;margin-left:150px;font-family: 'Fredoka One', cursive;">
+			<option value="-" style="font-family: 'Fredoka One', cursive;">Empty</option>
+			<option value="Veg dum biryani" style="font-family: 'Fredoka One', cursive;">Veg dum biryani</option>
+			<option value="Veg biryani" style="font-family: 'Fredoka One', cursive;">Veg biryani</option>
+			<option value="Hydrabadi biryani" style="font-family: 'Fredoka One', cursive;">Hydrabadi biryani</option>
+			<option value="veg fried rice" style="font-family: 'Fredoka One', cursive;">veg fried rice</option>
+		</select>
+		<select id="curry" style="width:150px;border-radius:10px;height:50px;margin-left:150px;font-family: 'Fredoka One', cursive;">
+			<option value="-">Empty</option>
+			<option value="Panner Curry">Panner Curry</option>
+			<option value="Carrot Curry">Carrot Curry</option>
+			<option value="Cauliflower Curry">Cauliflower Curry</option>
+			<option value="Mutter Curry">Mutter Curry</option>
+		</select>
+		<select id="starter" style="width:150px;border-radius:10px;height:50px;margin-left:120px;font-family:'Fredoka One', cursive;">
+			<option value="-">Empty</option>
+			<option value="Fried Chilli Chicken">Fried Chilli Chicken</option>
+			<option value="Panner Tikki">Panner Tikki</option>
+			<option value="Aloo Tikki">Aloo Tikki</option>
+			<option value="Chees Balls">Chees Balls</option>
+		</select>
+		<select id="ice" style='width:150px;border-radius:10px;height:50px;margin-left:160px;font-family:"Fredoka One", cursive;'>
+			<option value="-">Empty</option>
+			<option value="Vanilla">Vanilla</option>
+			<option value="Raspberry">Raspberry</option>
+			<option value="Chocolate">Chocolate</option>
+			<option value="Kulfi">Kulfi</option>
+		</select><br><br><br>
+		<center><button onclick="order()" style="width:150px;height:50px;border-radius:5px;background-color:white;font-family: 'Abril Fatface', cursive;font-size:20px;">Add to Cart</button></center>
+		<center><p id="cart" style='font-family:"Fredoka One", cursive;'></p></center><br>
+		<center><p style="font-family: 'Lilita One', cursive;font-size:30px;">Payment Option</p>
+		<select style="border-radius:10px;width:120px;height:40px;font-family: 'Fredoka One', cursive;">
+			<option>Paytm</option>
+			<option>GPay</option>
+			<option>PhonePe</option>
+			<option>Card</option>
+		</select></center><br><br>
+		<center><button onclick="confirm()" style="width:120px;height:50px;border-radius:5px;background-color:white;font-family: 'Ubuntu', sans-serif;font-size:20px;font-family: 'Abril Fatface', cursive;">Buy Now</button></center>
+		<script type="text/javascript" src="script.js">
+		</script>
+		</div><br><br>
+		<center><button style="width:120px;height:50px;border-radius:5px;background-color:white;font-family:'Ubuntu', sans-serif;font-size:15px;"><a href="index.html" style="text-decoration:none;font-family: 'Abril Fatface', cursive;font-size:20px;">Home</a></button></center>
+	</div><br><br>
+</body>
+</html>
